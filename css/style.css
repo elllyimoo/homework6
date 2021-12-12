@@ -1,0 +1,224 @@
+body {
+    background: url("../img/background.png") no-repeat;
+    background-size: 100%;
+    font-family: Ubuntu, sans-serif;
+    width: 1366px;
+    height: 770px;
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 1920px;
+    height: 58px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-content {
+    padding: 18px 79px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btns-n-log {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logo:hover {
+    color: #3CB878;
+}
+.btns-header::after {
+    width: 1px;
+    height: 19px;
+    content: url("../img/line-header.svg");
+    margin-right: 27px;
+}
+.btns-header a:hover{
+    filter: invert(61%) sepia(27%) saturate(851%) hue-rotate(96deg) brightness(94%) contrast(95%);
+}
+.btns-header img{
+    margin-right: 25px;
+}
+.welcome {
+    color: #FFFFFF;
+}
+.welcome a {
+    color: #FFFFFF;
+}
+.welcome a:hover {
+    color: #3CB878;
+}
+main {
+    position: absolute;
+    left: 50%;
+    margin-top: 54px;
+}
+.main-form-wrapper {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+    width: 444px;
+    height: 620px;
+    position: relative;
+}
+.form-content {
+    position: relative;
+    left: 58px;
+    top: 31px;
+}
+.square {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: -58px;
+    background: #3CB878;
+}
+.form-header {
+    display: flex;
+    flex-direction: row;
+}
+.log-form {
+    margin-left: 216px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #3CB878;
+}
+.log-form:hover {
+    color:#01813F;
+    text-decoration: underline;
+}
+.log-btn {
+    margin-top: 15px;
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: row;
+}
+.facebook, .google {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    align-content: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.facebook-btn {
+    position: relative;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 160px;
+    height: 48px;
+    background: #305DB8;
+    color: #FFFFFF;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.facebook-btn-img {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.facebook-line {
+    padding: 10px 18px 10px 19px;
+}
+.facebook-btn:hover {
+    background: #022263;
+}
+.google-btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 160px;
+    height: 48px;
+    background: #DF4A32;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.google-btn:hover {
+    background: #AB1F09;
+} 
+.google-btn-img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.google-line {
+    padding: 10px 30px 10px 7px;
+}
+.space-or {
+    font-size: 14px;
+    line-height: 14px;
+    color: #848484;
+}
+.space-or::before, .space-or::after {
+    width: 152px;
+    height: 0px;
+    content: url(../img/line-or.svg);
+}
+.main-form {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.main-form input:not(.checkbox) {
+    padding-left: 20px;
+    width: 308px;
+    height: 44px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 15px;
+}
+.main-form input:focus {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border: 1px solid #F2F2F2;
+    outline:none;
+}
+.main-form input::placeholder {
+    color: #BEBEBE;
+}
+.main-form-button {
+    cursor: pointer;
+    border: none;
+    width: 329px;
+    height: 46px;
+    background: rgba(60, 184, 120, 0.8);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.main-form-button:hover {
+    background: #01813F;
+}
+.main-form-title {
+    font-size: 20px;
+    line-height: 20px;
+    color: #434343;;
+}
+.checkbox {
+    margin-top: -3px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #434343;
+}
+.checkbox-link {
+    color: #3CB878;
+}
+.checkbox-link:hover {
+    color:#01813F;
+    text-decoration: underline;
+}
